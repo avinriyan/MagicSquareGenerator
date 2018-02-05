@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Magic Square Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>4x4 Magic Square Generator</h1>
+                <div class="panel panel-primary">
+                    <div class="panel-heading"></div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <input id="bilangan" class="form-control" type="number" placeholder="Masukkan Angka 15 - 99999">
+                            </div>
+                            <div class="col-xs-6">
+                                <button onclick="hitung();" class="btn btn-success" type="button" name="button">Hitung</button>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td><span id="c11">0</span></td>
+                                        <td><span id="c12">0</span></td>
+                                        <td><span id="c13">0</span></td>
+                                        <td><span id="c14">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span id="c21">0</span></td>
+                                        <td><span id="c22">0</span></td>
+                                        <td><span id="c23">0</span></td>
+                                        <td><span id="c24">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span id="c31">0</span></td>
+                                        <td><span id="c32">0</span></td>
+                                        <td><span id="c33">0</span></td>
+                                        <td><span id="c34">0</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span id="c41">0</span></td>
+                                        <td><span id="c42">0</span></td>
+                                        <td><span id="c43">0</span></td>
+                                        <td><span id="c44">0</span></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="col-xs-12">
+                                <p id="angka">0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <center>
+                            <span class="text-muted">2017 © Larapin.id</span>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

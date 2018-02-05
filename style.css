@@ -1,0 +1,10 @@
+td {
+     text-align: center;
+     background-color: #d9534f;
+     font-size: 30 px;
+}
+ p {
+     font-size: 100 px;
+     font-weight: bold;
+     text-align: center;
+}
